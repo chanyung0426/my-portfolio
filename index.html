@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1><a class="logo" href="/">KIM CHANYUNG</a></h1>
+            <nav class="nav_menu">
+                <h2>navigation</h2>
+                       <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="wrapper">
+        <section id="home">
+            <div class="inner">
+                <div class="textwrap">
+                    <h3 class="trans">Hello, I'm</h3> 
+                    <h3 class="trans2">chanyung</h3>
+                    <p class="trans3">frontend</p>
+                    <p class="trans4">developer</p>  
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about_inner">
+                <h2>About</h2>
+                <div class="desc_box">
+                    <div class="desc_box_txt">
+                        <div data-aos="fade-up" data-aos-duration="1000">
+                            <p>안녕하세요! 신입 프론트엔드 개발자 김찬융입니다.</p><br>
+                            <p>
+                            단순한 문제해결보다는 발생 원인을 분석하고 해결 후에 대한 성취감을 느끼는것을 좋아합니다.<br>
+                            정체되어 있지 않고 끊임없이 발전하기 위해 항상 노력하고자 합니다.<br>
+                            일상에서 마주한 불편함에 대해 앞으로 더 나은<br>
+                            사용자 경험에 대해 고민하는 프론트엔드 개발자가 되고 싶습니다. <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills_inner">
+            <h2>Skills</h2>
+            <h3>Languages/Framework/Library</h3>
+            <h4>편해요</h4>
+                <ul class="skillset">
+                    <li class="skill1">
+                        HTML5
+                    </li>
+                    <li class="skill2">
+                        CSS3
+                    </li>
+                    <li class="skill3">
+                        Javascript
+                    </li>
+                    <li class="skill4">
+                        React
+                    </li>
+                </ul>
+            <h4>어느 정도 사용할 수 있어요</h4>
+                <ul class="skillset2">
+                    <li class="skill5">
+                        jQuery
+                    </li>
+                    <li class="skill6">
+                        Styled-component
+                    </li>
+                    <li class="skill6">
+                        TailwindCSS
+                    </li>
+                </ul>
+            <h4>사용경험은 없으나 이론적 지식이 있어요</h4>
+                <ul class="skillset3">
+                    <li class="skill1">
+                        React-Query
+                    </li>
+                    <li class="skill2">
+                        Typescript
+                    </li>
+                    <li class="skill3">
+                        Next.js
+                    </li>
+                </ul>
+            <h3>Tool/Analytics</h3>
+            <h4>편해요</h4>
+            <ul class="skillset">
+                <li>
+                    Firebase
+                </li>
+                <li>
+                    Notion
+                </li>
+                <li>
+                    Adobe XD
+                </li>
+            </ul>
+            <h4>어느 정도 사용할 수 있어요</h4>
+            <ul class="skillset2">
+                <li>
+                    Github
+                </li>
+                <li>
+                    Netlify
+                </li>
+            </ul>
+            <h4>사용경험은 없으나 이론적 지식이 있어요</h4>
+            <ul  class="skillset3">
+                <li>
+                    Express
+                </li>
+                <li>
+                    MongoDB
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="cnt_inner">
+            <h2>projects</h2>
+            <div id="work_list">
+                <!--프로필페이지 포트폴리오-->
+                <div id="work1">
+                    
+                    <!--포트폴리오 목업 왼쪽 사진 영역-->
+                    <div class="work_left">
+                        <div class="aos" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                            <img src="img/mockup.png" alt="맥도날드 사이트">
+                        </div>
+                    </div>
+
+                    <!--포트폴리오 오른쪽 텍스트 영역-->
+                    <div class="work_right">
+                        <div class="work_txtbox">
+                            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                                <p class="work_subtit"><a href="#">Mcdonald</a></p><p class="period">(2023.12 ~ 2024.02)</p>
+                                <p class="work_p">알레르기를 입력하면 한번의 검색으로 입력된 정보를 포함한 메뉴를 볼 수 있게 해주는 포트폴리오 개인 프로젝트.</p>
+                                <p class="work_keyword"><mark class="mc">#React #Styled-component # Firebase #Rest API </mark></p>
+                                <p class="txt">맥도날드 사이트에서 알레르기 정보를 얻기 위한 검색 과정에서의 불편함을 개선하기 위해 제작. Firebase Database에 정보 저장과 검색창 구현을 통해 기존 알레르기 정보 검색 2~3단계 과정을 1단계 과정으로 단축.</p>
+                                <span class="visit_btn"><a href="https://my-benz.netlify.app"
+                                        title="프로필 버전1 바로가기" target="_blank">VIEW SITE</a></span>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+                <div id="work1">
+                    
+                    <!--포트폴리오 목업 왼쪽 사진 영역-->
+                    <div class="work_left">
+                        <div class="aos" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                            <img src="img/mockup.png" alt="벤츠 사이트">
+                        </div>
+                    </div>
+
+                    <!--포트폴리오 오른쪽 텍스트 영역-->
+                    <div class="work_right">
+                        <div class="work_txtbox">
+                            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                                <p class="work_subtit"><a href="#">Mercedes-Benz</a></p><p class="period">(2023.11 ~ 2024.12)</p>
+                                <p class="work_p">독일 프리미엄 자동차 브랜드인 Mercedes-Benz를 벤치마킹하여 
+                                    하드코딩으로 작업한 포트폴리오 개인 프로젝트.</p>
+                                <p class="work_keyword"><mark>#HTML #CSS #JAVASCRIPT #SLICK #AOS #CSS GRADIENT</mark></p>
+                                <p class="txt">어릴 적부터 자동차에 대한 관심과 취미를 프론트엔드 직무에 관련해 내 것을 만들어보고자 직접 기획 및 구현 제작한 사이트. 하드코딩 동시에 라이브러리를 함께 사용해 작업 시간 단축.</p>
+                                <span class="visit_btn"><a href="https://my-benz.netlify.app"
+                                        title="프로필 버전2 바로가기" target="_blank">VIEW SITE</a></span>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+                <div id="work2">
+                      <!--포트폴리오2 목업 왼쪽 사진 영역-->
+                    <div class="work2_left">
+                        <div class="aos" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                            <img src= "img/mockup2.png" alt= "디올 사이트">
+                        </div>
+                    </div>
+
+                    <!--포트폴리오2 오른쪽 텍스트 영역-->
+                    <div class="work2_right">
+                        <div class="work2_txtbox">
+                            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                                <p class="work2_subtit"><a href="#">Christian Dior</a></p><p class="period">(2024.03 ~ 작업 중 )</p>
+                                <p class="work2_keyword">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="contact">
+        <div class="contact_inner">
+            <h2>contact</h2>
+            <ul>
+                <li>Email : <a href="mailto:yyung0426@naver.com">yyung0426@naver.com</a></li>
+                <li>Github : <a href="https://github.com/chanyung0426">github.com/chanyung0426</a></li>
+            </ul>
+        </div>
+    </section>
+    </div>
+</body>
+
+<script src="js/jquery-3.6.1.min.js"></script>
+<script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
