@@ -371,13 +371,11 @@ mark {
     position: relative;
     width: 100%;
     height: 400px;
-    /* background-color: coral; */
 }
 .work2_left {
     position: absolute;
-    width: 100%; /* width:70% */
+    width: 100%;
     height: 50%;
-    /* left: -100px; */
 }
 
 .work2_left img {
@@ -392,8 +390,7 @@ mark {
 .work2_right {
     top: 30%;
     position: absolute;
-    width: 100%; /* width: 50%; */
-    /* right: -100px; */
+    width: 100%;
 }
 
 .work2_txtbox {
@@ -539,9 +536,33 @@ mark {
     margin: 10px auto;
 }
 
-@media (max-width:1700px){
+@media (max-width:1920px){
     .container{
         width: 80%;
+    }
+    .work_left{
+        width: 100%;
+        left: -50%;
+    }
+    .work_right{
+        width: 100%;
+        right: -50%;
+        top: 30px;
+    }
+    .work2_left{
+        width: 100%;
+        left: -50%
+    }
+    .work2_right{
+        width: 100%;
+        right: -50%;
+        top: 30px;
+    }
+}
+
+@media (max-width:1280px){
+    #home .inner h3, #home .inner p{
+        font-size: 150px;
     }
     .work_left{
         width: 80%;
@@ -563,12 +584,6 @@ mark {
     }
 }
 
-@media (max-width:1280px){
-    #home .inner h3, #home .inner p{
-        font-size: 150px;
-    }
-}
-
 @media (max-width:768px){
     h1 > a{
         display: none;
@@ -585,21 +600,43 @@ mark {
         width: 100%;
     }
     .textwrap{
+        width: 80%;
+        padding-top: 100px;
+    }
+    .desc_box_txt{
+        padding-top: 0;
+    }
+    #work1{
         width: 100%;
     }
-    #work2{
-        height: 300px;
-    }
     .work_left{
-        left: -20%;
+        width: 100%;
+        left: 0;
     }
     .work_right{
-        right: -20%;
+        width: 100%;
+        right: 0%;
+        padding-top: 50%;
+    }
+
+    #work1:nth-child(2){
+        margin-top: 150px;
+    }
+    #work2{
+        margin-top: 150px;
+    }
+   
+    .work_right{
+        width: 100%;
+        right: 0;
     }
     .work2_left{
-        left: -20%;
+        width: 100%;
+        left: 0;
     }
     .work2_right{
-        right: -20%;
+        width: 100%;
+        right: 0;
+        padding-top: 50%;
     }
 }
