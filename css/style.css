@@ -644,6 +644,9 @@ mark {
         right: 0;
         padding-top: 50%;
     }
+    #contact{
+        padding: 150px 10%;
+    }
 }
 
 @media (max-width:391px){
