@@ -132,7 +132,6 @@ h2 {
 #skills {
     padding: 150px 20%;
     position: relative;
-    height: 900px;
     margin: 0 auto;
     border-top: 2px dashed #ccc;
     color: #000;
@@ -621,7 +620,7 @@ mark {
         margin-top: 150px;
     }
     #work2{
-        margin-top: 150px;
+        margin-top: 180px;
     }
     .work_right{
         width: 100%;
