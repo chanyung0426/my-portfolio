@@ -636,3 +636,9 @@ mark {
         padding-top: 50%;
     }
 }
+
+@media (max-width:391px){
+    #home .inner h3, #home .inner p{
+        font-size: 100px;
+    }
+}
