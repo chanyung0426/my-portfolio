@@ -354,8 +354,6 @@ section #work {
 .work_txtbox .visit_btn:hover a {
     color: #000;
 }
-
-
 .work_txtbox .visit_btn:hover:after {
     width: 100%;
 }
@@ -625,7 +623,6 @@ mark {
     #work2{
         margin-top: 150px;
     }
-   
     .work_right{
         width: 100%;
         right: 0;
