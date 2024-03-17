@@ -582,6 +582,9 @@ mark {
 }
 
 @media (max-width:768px){
+    #about{
+        padding: 150px 10%;
+    }
     h1 > a{
         display: none;
     }
@@ -602,6 +605,12 @@ mark {
     }
     .desc_box_txt{
         padding-top: 0;
+    }
+    #skills{
+        padding: 150px 10%;
+    }
+    .cnt_inner{
+        padding: 0;
     }
     #work1{
         width: 100%;
